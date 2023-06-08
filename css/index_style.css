@@ -1,0 +1,185 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pretendard;
+}
+.rhd{
+  height: 70px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+    backdrop-filter: blur(30px);
+    background: white;
+    color: white;; 
+    padding-left: 20px;
+    padding-right: 32px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0;
+    z-index: 100;
+    height: 70px;
+  }
+  ul {
+    padding: 0;
+    font-size: 0;
+    display: flex;
+  }
+.li {
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* #li1{
+    width: 1px;
+    height: 1px;
+    background-color: aqua;
+    border-radius: 30px;
+  } */
+  .lg{
+    width: 67px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  .search {
+    position: relative;
+    width: 300px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    padding: 10px 12px;
+    font-size: 14px;
+    margin-right: 20%;
+  }
+
+  .p1{
+    text-align: center;
+    position: absolute;
+    width: 763px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 157px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+  }
+  .p2{
+    position: absolute;
+    width: 321px;
+    height: 143px;
+    left: 100px;
+    top: 190px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 157px;
+    color: #FFFFFF;
+  }
+  .p3{
+      position: absolute;
+      width: 776px;
+      height: 177px;
+      left: 95px;
+      top: 420px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 61px;
+      
+      color: #FFFFFF;
+  }
+  .p4{
+    text-align: center;
+    position: absolute;
+    letter-spacing:10px;
+    width: 763px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 157px;
+    font-family: 'Inter';
+    margin: 10px;
+    color: #FFFFFF;
+  }
+  .p5{
+    text-align: center;
+    position: absolute;
+    letter-spacing:10px;
+    width: 763px;
+    top: 160px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 140px;
+    font-family: 'Inter';
+    right: 750px;
+    margin: 10px;
+    color: #FFFFFF;
+  }
+  #p6{
+    top: 350px;
+  }
+  .a{
+    text-align: center;
+    position: absolute;
+    letter-spacing:10px;
+    top: 360px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Inter';
+    margin: 10px;
+    color: #FFFFFF;
+    left: 195px;
+  }
+  div {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+  }
+  
+  .image1 {
+    background: url(../img/Rectangle\ 67.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .image2 {
+    background: url(../img/news-2020-jul-edge-01.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .bg1{
+    width: 50%;
+    height: 100%;
+    background-color:rgba(105, 210, 255, 0.73);
+    position: absolute;
+  }
+  .bg2{
+    width: 50%;
+    height: 100%;
+    background-color:rgba(127, 207, 125, 0.78);
+    position: absolute;
+  }
+  footer{
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+  }
